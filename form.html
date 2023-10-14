@@ -7,10 +7,14 @@
     <link rel="stylesheet" href="form.css">
 </head>
 <body>
+    <input type="text" placeholder="Enter your name" required class="name">
+    <br><br>
     <input type="file" name="" id="fileInp" class="inputFile" onchange="getFile(event)" accept="image/png, image/jpg">
     <label for="fileInp">+</label>
+    <br>
     <span class="fileText"></span>
     <button onclick="uploadImage()">Upload Image</button>
+    <br><br>
     <div class="bar">
         <div class="progress"></div>
     </div>
