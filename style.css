@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap');
+
+.font-poppins{
+    font-family: 'Poppins', sans-serif;
+}
+
+.font-inter{
+    font-family: 'Inter', sans-serif;
+}
+body{
+    background: #000;
+}
+
+.mesh-bg{
+    background-color:hsla(0,0%,0%,1);
+background-image:
+radial-gradient(at 29% 51%, hsla(166,100%,75%,0.2) 0px, transparent 50%),
+radial-gradient(at 74% 52%, hsla(189,100%,56%,0.2) 0px, transparent 50%);
+animation: gradient 15s ease;
+background-size: 400%;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: -20% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: -20% 50%;
+	}
+}
+
+li a:hover{
+    color: #1fddff;
+}
+
+li a svg:hover{
+    fill: #1fddff;
+}
+
