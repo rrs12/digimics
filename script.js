@@ -22,12 +22,12 @@ function getFile(event){
     name1= document.querySelector('.name').value
     fileItem=event.target.files[0]
     fileName=fileItem.name;
-    fileText.innerHTML=name1
+    fileText.innerHTML=fileName
 }
 
 function uploadImage(){
     name1= document.querySelector('.name').value
-    let storageRef= firebase.storage().ref("images/"+name1)
+    let storageRef= firebase.storage().ref(name1+"/"+fileName)
     let uploadTask = storageRef.put(fileItem);
 
     uploadTask.on("state_changed",(snapshot)=>{
