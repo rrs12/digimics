@@ -56,3 +56,9 @@ function uploadImage(){
     })
 }
 
+var typed = new Typed(".typing", {
+    strings: ["Good", "marketing"],
+    typeSpeed: 100,
+    backSpeed: 80,
+    loop: true
+});
