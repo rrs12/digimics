@@ -1,10 +1,3 @@
-var typed = new Typed(".typing", {
-    strings: ["Good marketing makes the company look smart." , "Great marketing makes the customer feel smart."],
-    typeSpeed: 80,
-    backSpeed: 100,
-    loop: true
-});
-
 const firebaseConfig = {
     apiKey: "AIzaSyD5U47JEPujGTeKklwZUqfFGgjLOakzPfA",
     authDomain: "digitaldynamics-d64e7.firebaseapp.com",
@@ -55,10 +48,3 @@ function uploadImage(){
         })
     })
 }
-
-var typed = new Typed(".typing", {
-    strings: ["Good", "marketing"],
-    typeSpeed: 100,
-    backSpeed: 80,
-    loop: true
-});
