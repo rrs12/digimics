@@ -31,7 +31,7 @@ function get() {
 
 
 
-    row = '<h1> Email: '+email+'</h1> <br>'+'<h1> Name: '+username+'</h1> <br>'+'<h1> Father Name: '+father_name+'</h1> <br>'+'<h1> Age:'+age+'</h1> <br>'+'<h1> Instagram Id: '+insta_id+'</h1> <br>'+ '<h1> Amount: '+amount+'</h1> <br> <a type="submit" class="bg-gray-700 text-center w-auto text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800" onclick="login()">Upload Image</a>';
+    row = '<h1> Email: '+email+'</h1> <br>'+'<h1> Name: '+username+'</h1> <br>'+'<h1> Father Name: '+father_name+'</h1> <br>'+'<h1> Age:'+age+'</h1> <br>'+'<h1> Instagram Id: '+insta_id+'</h1> <br>'+ '<h1> Amount: '+amount+'</h1> <br> <a type="submit" class="bg-gray-700 text-center w-auto text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800" href="image-upload.html">Upload Image</a>';
     document.getElementById("output").innerHTML += row;
 
   })
